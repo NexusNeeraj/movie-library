@@ -1,0 +1,93 @@
+.moviesListContainer {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.searchContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.searchInput {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 10px;
+  width: 300px;
+}
+
+.searchButton {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #c291e2;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.searchButton:hover {
+  background-color: #38015c;
+}
+
+.moviesContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.movieCard {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.movieCard:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+
+.moviePoster {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 4px;
+  transition: transform 0.3s ease;
+}
+
+.movieCard:hover .moviePoster {
+  transform: scale(1.05);
+}
+
+.movieTitle {
+  font-size: 1.5rem;
+  margin: 10px 0;
+  color: #333;
+}
+
+.movieYear {
+  font-size: 1rem;
+  color: #666;
+}
+
+.addButton {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #c291e2;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.addButton:hover {
+  background-color: #38015c;
+}
