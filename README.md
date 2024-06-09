@@ -63,20 +63,20 @@ The app leverages React for the front end, providing a dynamic and responsive us
 
 1. **Authentication:**
 
-      - Navigate to /auth to log in or sign up.
+      - Navigate to **/auth** to log in or sign up.
       - Once logged in, you will be redirected to the home page.
 
 2. **Search Movies:**
 
-      - Use the search bar on the home page to search for movies.
+      - Use the **search bar** on the home page to search for movies.
 
 3. **Add to Collection:**
 
-      - Click the "Add to Collection" button on any movie card to add it to your personal   collection.
+      - Click the **"Add to Collection"** button on any movie card to add it to your personal   collection.
 
 4. **View Collection:**
 
-      - Navigate to /collection to view your movie collection.
+      - Navigate to **/collection** to view your movie collection.
 
 
 ### Contributing
