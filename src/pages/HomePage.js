@@ -18,7 +18,7 @@ const HomePage = (props) => {
   const fetchMovies = async () => {
     setIsLoading(true);
     try {
-      const response = await axios.get(`http://www.omdbapi.com/?apikey=a8c159e&s=Batman`);
+      const response = await axios.get(`https://www.omdbapi.com/?apikey=a8c159e&s=Batman`);
       //console.log(response.data);
       setMovies(response.data.Search || []);
       setNoMoviesFound(!response.data.Search || response.data.Search.length === 0);
@@ -32,7 +32,7 @@ const HomePage = (props) => {
 
   const searchMovies = async () => {
     try {
-      const response = await axios.get(`http://www.omdbapi.com/?apikey=a8c159e&s=${query}`);
+      const response = await axios.get(`https://www.omdbapi.com/?apikey=a8c159e&s=${query}`);
       //console.log(response.data);
       if(response.data.Response === 'False'){
         setNoMoviesFound(true);
