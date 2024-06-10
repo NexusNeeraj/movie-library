@@ -77,3 +77,6 @@ The app leverages React for the front end, providing a dynamic and responsive us
 
       - Navigate to **/collection** to view your movie collection.
 
+
+### Contributing
+- If you'd like to contribute to the project, please follow the contribution guidelines.
